@@ -226,6 +226,7 @@ int main ( void )
 
             // !!!! THIS IS WHERE YOUR ASSEMBLY LANGUAGE PROGRAM GETS CALLED!!!!
             // Call our assembly function defined in file asmFunc.s
+            
             result = asmFunc(inp1, inp2);
             
             // test the result and see if it passed
